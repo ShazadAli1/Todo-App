@@ -1,0 +1,61 @@
+ body {
+    background-color: 
+ }
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 8px;
+    box-shadow: 0px 0px 10px rgb(163, 162, 162);
+border-radius: 30px;
+
+}
+
+.container input {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(163, 162, 162);
+    background-color: white;
+    padding: 8px;
+}
+
+
+.container div {
+    margin-top: 10px;
+}
+
+#todoParent ol li {
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(163, 162, 162);
+    background-color: white;
+}
+
+#todoParent li {
+    border: 1px solid black;
+    padding: 5px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+#todoParent li button {
+    /* display: inline-block; */
+    /* margin-left: auto; */
+    /* background-color: red; */
+    margin-left: 30px;
+}
